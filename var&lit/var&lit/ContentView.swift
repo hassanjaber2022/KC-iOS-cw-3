@@ -11,25 +11,24 @@ struct ContentView: View {
     
     @State var hsn = ""
     
+   @State var hsn2 = ""
+    
     var body: some View {
         VStack{
             
             Text("welcome back, \(hsn)")
             
             
-            Text("welcome back, \(hsn)")
+            Text(", \(hsn2)")
             
             Image("tourists-go-up-hill-sunrise")
                 .resizable()
                 .scaledToFit()
             
-           
-            
-            
             TextField("enter your name", text: $hsn)
             
             
-            TextField("enter your name", text: $hsn)
+            TextField("Enter your name", text: $hsn2)
 
             
             
